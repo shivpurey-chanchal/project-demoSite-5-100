@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="tabs.css" />
+    <title>FooD.COM</title>
+  </head>
+  <body>
+    <main>
+      <section id="landing-page">
+        <div class="nav-slider">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <header class="title-background">
+          <h2 class="title">FooD.COM</h2>
+        </header>
+      </section>
+      <section class="nav-slider-section">
+        <button class="close-nav-slider">X</button>
+        <section class="nav-links-container">
+          <ul>
+            <li><a href="#menu" class="nav-links">Menu</a></li>
+            <li>
+              <a href="#restaurant-info" class="nav-links"
+                >Restaurant Information</a
+              >
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section id="menu">
+        <h2 class="menu-title">Menu</h2>
+        <section class="tabs-container">
+          <section class="tabs">
+            <button class="tabHeader active-tab" data-tab="1">FooD's</button
+            ><button class="tabHeader" data-tab="2">Drinks</button
+            ><button class="tabHeader" data-tab="3">Appetizers</button
+            ><button class="tabHeader" data-tab="4">Dessert</button>
+          </section>
+          <section id="tabSection-1" class="tabsection show-tab">
+            <p>1. Spicy Rice<span class="menu-price">$80.00</span></p>
+            <p>2. Makizushi<span class="menu-price">$45.00</span></p>
+            <p>3. Gunkan Maki<span class="menu-price">$35.00</span></p>
+            <p>4. Temaki<span class="menu-price">$70.00</span></p>
+          </section>
+          <section id="tabSection-2" class="tabsection hide-tab">
+            <p>
+              1. Frozen Margarita<span class="menu-price"
+                >$10.00</span
+              >
+            </p>
+            <p>2. Cocktails <span class="menu-price">$20.00</span></p>
+            <p>3. Tequila Sunrise<span class="menu-price">$30.00</span></p>
+            <p>4. Sangria <span class="menu-price">$50.00</span></p>
+          </section>
+          <section id="tabSection-3" class="tabsection hide-tab">
+            <p>
+              1. Bacon Jalapeno <span class="menu-price"
+                >$90.00</span
+              >
+            </p>
+            <p>
+              2. Stuffed Mushrooms
+              <span class="menu-price">$48.00</span>
+            </p>
+            <p>3. Ginger root<span class="menu-price">$46.00</span></p>
+            <p>
+              4. Crab Rangoon <span class="menu-price">$26.00</span>
+            </p>
+          </section>
+          <section id="tabSection-4" class="tabsection hide-tab">
+            <p>1. Pineapple Delight<span class="menu-price">$65.00</span></p>
+            <p>
+              2. Chocolate Chip
+              <span class="menu-price">$55.00</span>
+            </p>
+            <p>3. Peanut Butter Bars<span class="menu-price">$50.00</span></p>
+            <p>4. Cheesecake<span class="menu-price">$70.00</span></p>
+          </section>
+        </section>
+      </section>
+      <section id="restaurant-info">
+        <section class="info-container">
+        <section class="address-content">
+          <h2 class="restaurant-info-title">Address</h2>
+          <p class="address">123, Restaurant St.</p>
+          <p class="address">NY, New York</p>
+        </section>
+        <section class="business-hours">
+          <h2 class="restaurant-info-title">Business Hours</h2>
+          <p class="hours">Monday-Friday : 9am-10pm</p>
+          <p class="hours">Saturday-Sunday : 10am-12pm</p>
+        </section>
+        <section class="contact-content">
+          <h2 class="restaurant-info-title">Pick Up</h2>
+          <p class="phone">Call Us : 000-0000-000</p>
+        </section>
+      </section>
+      </section>
+    </main>
+    <script src="main.js"></script>
+    <script src="tabs.js"></script>
+  </body>
+</html>
